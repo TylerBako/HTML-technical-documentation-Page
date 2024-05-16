@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML documentation Page</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<main id ="main-doc">
+  <body>
+    <nav id="navbar">
+      <ul>
+        <li>
+          <header>
+          <a href="#Introduction" class="nav-link">Introduction</a>
+        </li>
+        <spacer>
+        <li>
+          <a href="#Basics" class="nav-link">Basics</a>
+        </li>
+        <spacer>
+        <li>
+          <a href="#Attributes" class="nav-link">Attributes</a>
+        </li>
+        <spacer>
+        <li>
+          <a href="#Classes" class="nav-link">Classes</a>
+        </li>
+        <spacer>
+        <li>
+          <a href="#Colors" class="nav-link">Colors</a>
+        </li>
+        <spacer>
+        <li>
+          <a href="#Divs" class="nav-link">Divs</a>
+        </li>
+      </ul>
+    </nav>
+  <section class="main-section" id="Introduction">
+    <header ="Introduction">
+      <h1>HTML DOCUMENTATION PAGE</h1>
+      <spacer>
+    <h1>Introduction</h1>
+    </header>
+      <p>Welcome to this entry level introduction to html. To start of with what does html even stand for and what can we do with it? html stands for Hyper Text MarkUp Language and is the standard language used in creating web pages. It is a way of annotating webpages so that computers can interpert and display them properly, by using a collection of different tags you can essentially build a static webpage from start to finish.
+      <br>
+      <p>HTML has had multiple iterations since the language has been developed such as html 2, 3, 4 and now the current version html 5.
+        <br>
+        <br>
+  <header>
+  <h2>Examples of common tags</h2>
+  </header>
+    <li><strong>&lt;body&gt;</strong> This tag is used for containing all the visible content that will be displayed on the webpage, anything from text, videos, links and headings.</li>
+    <li><strong><code>&lt;header&gt;</code></strong>We use the heading tag to define the heading of the webpage, it provides the introductory information normally presented at the top of a webpage</li>
+    <li><strong><code>&lt;h1&gt;</code></strong> so the h1 tag can range all the way from h1 to h6 in descending order to create subheaders for your content varying in size. It is fundementally different from the header tag as that is the main header for the entire page</li>
+    <li><strong><code>&lt;p&gt;</code></strong> The p tag is used for when you want to create paragraphs of text on your webpage</li>
+    <li><strong><code>&lt;section&gt;</code></strong> Section tages can be used to group together bundles of information</li>
+  </section>
+<br>
+  <section class="main-section" id="Basics">
+  <header id="Basics">
+  <h1 id="basics">Basics</h1>
+  </header>
+    <p>In this section we will cover over the basic tools that you will need to start any webpage and get it to function on a very basic level but will techinically function as a webpage.</p>
+
+    <p>At the start of every html document you need to start off with <strong><code>&lt;DOCTYPE html!&gt;</code></strong> this is what helps the computer determine that it is dealing with a html document. There are various ways to go about presenting information on your webpage but normally you would use the "p" tag to present any text on the webpage and h1-h6 for any headings or subheaders.           
+  </section>
+  <section class="main-section" id="Attributes">
+  <header id="Attributes">
+  <h2>Attributes</h2>
+  </header>
+    <p>Attributes are a way for you to add content to an element wihtout it appearing on thr actual webpage itself, so for example adding a class to an element is an example of an attribute, as you are assigning a name to the element which would be the hidden content not displayed below is an example:
+<br>
+<br>
+    <strong>&lt;p class="dog"&gt;</strong>My dog is hungry<strong>&lt;p&gt;</strong>
+<br>
+<br>
+    <p>so in this example the class="dog" part would be the attribute as it is the hidden content that will not be displayed to the viewer of the webpage.
+  </section>
+  <section class="main-section" id="Classes">
+  <header id="Classes">
+  <h2>Classes</h2>
+  </header>
+    <p>Classes are important because they can name elements that so you can specifically call on that element later on. They are flexible cause you can add more than one class to an element
+        <br>
+        <br>
+    <p>One of the main reasons that you would use a class is for styling with css or for selecing elements. Class can be made with letters, digits and hyphens but can never start with a digit and if you need to have a space you use an underscore.
+  </section>
+
+  <section class="main-section" id="Colors">
+  <header id="Colors">
+  <h2>Colors</h2>
+  </header>
+    <p>Colors can be used in a html page by using inline css. There can be many different ways that you can make your colors with for example, you can use: <br>
+  <li><strong>RGB</strong> values to specify your red, greens and blue to a varying degree of intensity to make your desired color.</li>
+  <br>
+  <li><strong>Hexidecimal</strong> is another method of representing the color needed by using a combination of up to 6 alphanumeric characters following the hash symbol to create your color.</li>
+  <li><strong>RGBA</strong>is very similar to the rgb method of creating colors on a webpage but with this method you can also control the opacity of the color by adding an alpha value which can range all the way from 0 which would be transparent to 1 which is opaque</li>
+</section>
+
+<section class="main-section" id="Divs">
+  <header id="Divs">
+    <h2>Divs</h2>
+  </header>
+      <p>A div element requires no attributes but you will commonly find class and id attributes attributed to div elements, this is so you can call on them a lot later on.
+      <p>Div elements can also be used as a container so that you can group together entire sections of a webpage to style the entire section. You can also use multiple divs on a webpage to make multiple groups as is one of the most important elements needed when styling in css.
+</body>
+</main>
+</html>
